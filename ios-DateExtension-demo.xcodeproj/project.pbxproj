@@ -14,6 +14,9 @@
 		BC19C9EE2411CD04001FA717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC19C9ED2411CD04001FA717 /* Assets.xcassets */; };
 		BC19C9F12411CD04001FA717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC19C9EF2411CD04001FA717 /* LaunchScreen.storyboard */; };
 		BC19C9FC2411CD04001FA717 /* ios_DateExtension_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC19C9FB2411CD04001FA717 /* ios_DateExtension_demoTests.swift */; };
+		BC19CA072411CD70001FA717 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC19CA062411CD70001FA717 /* Date+Extension.swift */; };
+		BC19CA092411CD99001FA717 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC19CA082411CD99001FA717 /* String+Extension.swift */; };
+		BC19CA0C2411D064001FA717 /* DateFormatType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC19CA0B2411D064001FA717 /* DateFormatType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		BC19C9F72411CD04001FA717 /* ios-DateExtension-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-DateExtension-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC19C9FB2411CD04001FA717 /* ios_DateExtension_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_DateExtension_demoTests.swift; sourceTree = "<group>"; };
 		BC19C9FD2411CD04001FA717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC19CA062411CD70001FA717 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		BC19CA082411CD99001FA717 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		BC19CA0B2411D064001FA717 /* DateFormatType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		BC19C9E32411CD03001FA717 /* ios-DateExtension-demo */ = {
 			isa = PBXGroup;
 			children = (
+				BC19CA0A2411D04B001FA717 /* Extensions */,
 				BC19C9E42411CD03001FA717 /* AppDelegate.swift */,
 				BC19C9E62411CD03001FA717 /* SceneDelegate.swift */,
 				BC19C9E82411CD03001FA717 /* ViewController.swift */,
@@ -97,6 +104,16 @@
 				BC19C9FD2411CD04001FA717 /* Info.plist */,
 			);
 			path = "ios-DateExtension-demoTests";
+			sourceTree = "<group>";
+		};
+		BC19CA0A2411D04B001FA717 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC19CA062411CD70001FA717 /* Date+Extension.swift */,
+				BC19CA082411CD99001FA717 /* String+Extension.swift */,
+				BC19CA0B2411D064001FA717 /* DateFormatType.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +218,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC19C9E92411CD03001FA717 /* ViewController.swift in Sources */,
+				BC19CA072411CD70001FA717 /* Date+Extension.swift in Sources */,
 				BC19C9E52411CD03001FA717 /* AppDelegate.swift in Sources */,
+				BC19CA092411CD99001FA717 /* String+Extension.swift in Sources */,
+				BC19CA0C2411D064001FA717 /* DateFormatType.swift in Sources */,
 				BC19C9E72411CD03001FA717 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
